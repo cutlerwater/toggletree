@@ -1,5 +1,5 @@
 $patterns: 'slow', 'steady', 'half', 'frenetic';
-$bgs: 'teal', 'warm', 'crystal', 'daytime', 'dark';
+$bgs: 'teal', 'warm', 'crystal', 'daytime', 'dark', 'forest';
 $colors: 'red', 'cream', 'gold', 'blue', 'classic', 'white', 'purple', 'black';
 $allColors: join(unquote($bgs), unquote($colors), comma);
     
@@ -14,6 +14,9 @@ $allColors: join(unquote($bgs), unquote($colors), comma);
    --bg2-daytime: rgb(111, 180, 224);
    --bg1-dark: rgb(15, 10, 10);
    --bg2-dark: rgb(63, 59, 54);
+   --bg1-forest: rgb(1,68,33);
+   --bg2-forest: rgb(139, 243, 191);
+
 
    --moon: rgba(234, 201, 188, 0.95);
 
