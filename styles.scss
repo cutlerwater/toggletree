@@ -1,6 +1,6 @@
 $patterns: 'slow', 'steady', 'half', 'frenetic';
 $bgs: 'teal', 'warm', 'crystal', 'daytime', 'dark';
-$colors: 'red', 'cream', 'gold', 'blue', 'classic', 'white';
+$colors: 'red', 'cream', 'gold', 'blue', 'classic', 'white', 'purple', 'black';
 $allColors: join(unquote($bgs), unquote($colors), comma);
     
 :root {
@@ -31,6 +31,10 @@ $allColors: join(unquote($bgs), unquote($colors), comma);
    // --light-classic-secondary: rgb(219, 136, 117);
    --light-white: rgb(250, 250, 250);
    --light-white-secondary: rgb(160, 160, 160);
+   --light-purple: rgb(177,156,217);
+   --light-purple-secondary: rgb(48,25,52);
+   --light-black: rgb(30,30,30);
+   --light-black-secondary: rgb(0,0,0);
 
    --speed: 3s;
    --speedInvert: -3s;
