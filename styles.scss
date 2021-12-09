@@ -16,9 +16,10 @@ $allColors: join(unquote($bgs), unquote($colors), comma);
    --bg2-dark: rgb(63, 59, 54);
    --bg1-forest: rgb(1,68,33);
    --bg2-forest: rgb(139, 243, 191);
+   --bg1-snowy: rgb(224, 243, 238);
+   -bg2-snowy: rgb(250, 250, 250);
 
-
-   --moon: rgba(234, 201, 188, 0.95);
+   --moon: rgba(88, 61, 50, 0.95);
 
    --light-red: rgb(197, 54, 47);
    --light-red-secondary: rgb(252,136,113);
