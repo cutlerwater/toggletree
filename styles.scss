@@ -63,6 +63,12 @@ body {
    font-family: sans-serif;
 }
 
+.container { 
+   margin: 0;
+   color: white;
+   z-index: 999;
+}
+
 // Update variables based on option selected
 @each $val in $colors {
    .radio[value="#{$val}"]:checked ~ * {
